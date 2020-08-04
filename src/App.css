@@ -39,3 +39,11 @@ textarea {
   background: #00b800;
   padding: 10px;
 }
+
+textarea:disabled {
+  background-color: #a5a2a2;
+  cursor: not-allowed;
+}
+button:disabled {
+  cursor: not-allowed;
+}
